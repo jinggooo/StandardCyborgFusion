@@ -1,0 +1,1188 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3310D981C488E177406A5935 /* libPods-StandardCyborgFusion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0A2A7B392400EB3F1F /* libPods-StandardCyborgFusion.a */; };
+		F31C4D8A2A79E11F00EB3F1F /* StandardCyborgFusion.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D892A79E11F00EB3F1F /* StandardCyborgFusion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F31C4DC82A79E72B00EB3F1F /* SCFootTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D912A79E72B00EB3F1F /* SCFootTracking.m */; };
+		F31C4DC92A79E72B00EB3F1F /* SCMeshTexturing.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D932A79E72B00EB3F1F /* SCMeshTexturing.mm */; };
+		F31C4DCA2A79E72B00EB3F1F /* SCMesh+FileIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D942A79E72B00EB3F1F /* SCMesh+FileIO.mm */; };
+		F31C4DCB2A79E72B00EB3F1F /* SCMesh+Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D952A79E72B00EB3F1F /* SCMesh+Geometry.h */; };
+		F31C4DCC2A79E72B00EB3F1F /* SCMeshTexturing.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D962A79E72B00EB3F1F /* SCMeshTexturing.h */; };
+		F31C4DCD2A79E72B00EB3F1F /* SCMesh.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D972A79E72B00EB3F1F /* SCMesh.h */; };
+		F31C4DCE2A79E72B00EB3F1F /* SCMeshingOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D982A79E72B00EB3F1F /* SCMeshingOperation.m */; };
+		F31C4DCF2A79E72B00EB3F1F /* SCMesh.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D992A79E72B00EB3F1F /* SCMesh.mm */; };
+		F31C4DD02A79E72B00EB3F1F /* SCMesh+SceneKit.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D9A2A79E72B00EB3F1F /* SCMesh+SceneKit.m */; };
+		F31C4DD12A79E72B00EB3F1F /* SCMesh+Geometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4D9B2A79E72B00EB3F1F /* SCMesh+Geometry.mm */; };
+		F31C4DD22A79E72B00EB3F1F /* SCMesh_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D9C2A79E72B00EB3F1F /* SCMesh_Private.h */; };
+		F31C4DD32A79E72B00EB3F1F /* SCMesh+FileIO.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D9D2A79E72B00EB3F1F /* SCMesh+FileIO.h */; };
+		F31C4DD42A79E72B00EB3F1F /* SCMesh+SceneKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D9E2A79E72B00EB3F1F /* SCMesh+SceneKit.h */; };
+		F31C4DD52A79E72B00EB3F1F /* SCMeshingOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4D9F2A79E72B00EB3F1F /* SCMeshingOperation.h */; };
+		F31C4DD62A79E72B00EB3F1F /* SCEarTracking.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DA02A79E72B00EB3F1F /* SCEarTracking.m */; };
+		F31C4DD72A79E72B00EB3F1F /* SCLandmark3D.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DA22A79E72B00EB3F1F /* SCLandmark3D.m */; };
+		F31C4DD82A79E72B00EB3F1F /* SCLandmark2D.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DA32A79E72B00EB3F1F /* SCLandmark2D.m */; };
+		F31C4DD92A79E72B00EB3F1F /* SCLandmarking2D.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DA42A79E72B00EB3F1F /* SCLandmarking2D.h */; };
+		F31C4DDA2A79E72B00EB3F1F /* SCLandmark3D.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DA52A79E72B00EB3F1F /* SCLandmark3D.h */; };
+		F31C4DDB2A79E72B00EB3F1F /* SCLandmark2D.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DA62A79E72B00EB3F1F /* SCLandmark2D.h */; };
+		F31C4DDC2A79E72B00EB3F1F /* SCLandmark2D_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DA72A79E72B00EB3F1F /* SCLandmark2D_Private.h */; };
+		F31C4DDD2A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DA82A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.m */; };
+		F31C4DDE2A79E72B00EB3F1F /* SCAssimilatedFrameMetadata_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DA92A79E72B00EB3F1F /* SCAssimilatedFrameMetadata_Private.h */; };
+		F31C4DDF2A79E72B00EB3F1F /* SCOfflineReconstructionManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DAA2A79E72B00EB3F1F /* SCOfflineReconstructionManager_Private.h */; };
+		F31C4DE02A79E72B00EB3F1F /* CVPixelBufferHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DAB2A79E72B00EB3F1F /* CVPixelBufferHelpers.m */; };
+		F31C4DE12A79E72B00EB3F1F /* SCFootTrackingModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DAC2A79E72B00EB3F1F /* SCFootTrackingModel.mlmodel */; };
+		F31C4DE22A79E72B00EB3F1F /* SCScene.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DAD2A79E72B00EB3F1F /* SCScene.h */; };
+		F31C4DE32A79E72B00EB3F1F /* SCEarTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DAE2A79E72B00EB3F1F /* SCEarTracking.h */; };
+		F31C4DE42A79E72B00EB3F1F /* SCEarTrackingModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DAF2A79E72B00EB3F1F /* SCEarTrackingModel.mlmodel */; };
+		F31C4DE52A79E72B00EB3F1F /* SCScene.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DB02A79E72B00EB3F1F /* SCScene.mm */; };
+		F31C4DE62A79E72B00EB3F1F /* SCReconstructionManagerParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB12A79E72B00EB3F1F /* SCReconstructionManagerParameters.h */; };
+		F31C4DE72A79E72B00EB3F1F /* SCOfflineReconstructionManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DB22A79E72B00EB3F1F /* SCOfflineReconstructionManager.mm */; };
+		F31C4DE82A79E72B00EB3F1F /* SCFootTracking.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB32A79E72B00EB3F1F /* SCFootTracking.h */; };
+		F31C4DE92A79E72B00EB3F1F /* SCOfflineReconstructionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB42A79E72B00EB3F1F /* SCOfflineReconstructionManager.h */; };
+		F31C4DEA2A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB52A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.h */; };
+		F31C4DEB2A79E72B00EB3F1F /* SCReconstructionManager_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB62A79E72B00EB3F1F /* SCReconstructionManager_Private.h */; };
+		F31C4DEC2A79E72B00EB3F1F /* SCReconstructionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB72A79E72B00EB3F1F /* SCReconstructionManager.h */; };
+		F31C4DED2A79E72B00EB3F1F /* CVPixelBufferHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DB82A79E72B00EB3F1F /* CVPixelBufferHelpers.h */; };
+		F31C4DEE2A79E72B00EB3F1F /* SCPointCloud+SceneKit.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DBA2A79E72B00EB3F1F /* SCPointCloud+SceneKit.mm */; };
+		F31C4DEF2A79E72B00EB3F1F /* SCPointCloud.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DBB2A79E72B00EB3F1F /* SCPointCloud.h */; };
+		F31C4DF02A79E72B00EB3F1F /* SCPointCloud+Metal.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DBC2A79E72B00EB3F1F /* SCPointCloud+Metal.h */; };
+		F31C4DF12A79E72B00EB3F1F /* SCPointCloud.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DBD2A79E72B00EB3F1F /* SCPointCloud.mm */; };
+		F31C4DF22A79E72B00EB3F1F /* SCPointCloud+SceneKit.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DBE2A79E72B00EB3F1F /* SCPointCloud+SceneKit.h */; };
+		F31C4DF32A79E72B00EB3F1F /* SCPointCloud+FileIO.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DBF2A79E72B00EB3F1F /* SCPointCloud+FileIO.h */; };
+		F31C4DF42A79E72B00EB3F1F /* SCPointCloud+Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DC02A79E72B00EB3F1F /* SCPointCloud+Geometry.h */; };
+		F31C4DF52A79E72B00EB3F1F /* SCPointCloud_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DC12A79E72B00EB3F1F /* SCPointCloud_Private.h */; };
+		F31C4DF62A79E72B00EB3F1F /* SCPointCloud+Metal.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DC22A79E72B00EB3F1F /* SCPointCloud+Metal.m */; };
+		F31C4DF72A79E72B00EB3F1F /* SCPointCloud+Geometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DC32A79E72B00EB3F1F /* SCPointCloud+Geometry.mm */; };
+		F31C4DF82A79E72B00EB3F1F /* SCPointCloud+FileIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DC42A79E72B00EB3F1F /* SCPointCloud+FileIO.mm */; };
+		F31C4DF92A79E72B00EB3F1F /* SCReconstructionManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4DC52A79E72B00EB3F1F /* SCReconstructionManager.mm */; };
+		F31C4DFA2A79E72B00EB3F1F /* PBFFinalStatistics.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DC62A79E72B00EB3F1F /* PBFFinalStatistics.h */; };
+		F31C4DFB2A79E72B00EB3F1F /* SCReconstructionManagerParameters_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4DC72A79E72B00EB3F1F /* SCReconstructionManagerParameters_Private.h */; };
+		F31C4E732A79EE0500EB3F1F /* SparseSurfelLandmarksIndex.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E032A79EE0400EB3F1F /* SparseSurfelLandmarksIndex.hpp */; };
+		F31C4E742A79EE0500EB3F1F /* RawFrame.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E042A79EE0400EB3F1F /* RawFrame.hpp */; };
+		F31C4E752A79EE0500EB3F1F /* PBFConfiguration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E052A79EE0400EB3F1F /* PBFConfiguration.cpp */; };
+		F31C4E762A79EE0500EB3F1F /* Surfel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E062A79EE0400EB3F1F /* Surfel.hpp */; };
+		F31C4E772A79EE0500EB3F1F /* ProcessedFrame.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E072A79EE0400EB3F1F /* ProcessedFrame.hpp */; };
+		F31C4E782A79EE0500EB3F1F /* PBFAssimilatedFrameMetadata.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E082A79EE0400EB3F1F /* PBFAssimilatedFrameMetadata.hpp */; };
+		F31C4E792A79EE0500EB3F1F /* PBFConfiguration.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E092A79EE0400EB3F1F /* PBFConfiguration.hpp */; };
+		F31C4E7A2A79EE0500EB3F1F /* SparseSurfelLandmarksIndex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E0A2A79EE0400EB3F1F /* SparseSurfelLandmarksIndex.cpp */; };
+		F31C4E7B2A79EE0500EB3F1F /* ScreenSpaceLandmark.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E0B2A79EE0400EB3F1F /* ScreenSpaceLandmark.hpp */; };
+		F31C4E7C2A79EE0500EB3F1F /* SCEarLandmarking.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E0D2A79EE0400EB3F1F /* SCEarLandmarking.mlmodel */; };
+		F31C4E7D2A79EE0500EB3F1F /* EarLandmarkingAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E0E2A79EE0400EB3F1F /* EarLandmarkingAnalysis.m */; };
+		F31C4E7E2A79EE0500EB3F1F /* EarLandmarkingAnalysis.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E0F2A79EE0400EB3F1F /* EarLandmarkingAnalysis.h */; };
+		F31C4E7F2A79EE0500EB3F1F /* RenderPositions.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E112A79EE0400EB3F1F /* RenderPositions.hpp */; };
+		F31C4E802A79EE0500EB3F1F /* ApplyLensCalibration.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E122A79EE0400EB3F1F /* ApplyLensCalibration.metal */; };
+		F31C4E812A79EE0500EB3F1F /* MetalDepthProcessorData.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E132A79EE0400EB3F1F /* MetalDepthProcessorData.hpp */; };
+		F31C4E822A79EE0500EB3F1F /* UvToColor.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E142A79EE0400EB3F1F /* UvToColor.metal */; };
+		F31C4E832A79EE0500EB3F1F /* InitializeDepthConfidenceKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E152A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.mm */; };
+		F31C4E842A79EE0500EB3F1F /* RenderUvs.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E162A79EE0400EB3F1F /* RenderUvs.metal */; };
+		F31C4E852A79EE0500EB3F1F /* RenderPositions.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E172A79EE0400EB3F1F /* RenderPositions.metal */; };
+		F31C4E862A79EE0500EB3F1F /* ComputePointsKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E182A79EE0400EB3F1F /* ComputePointsKernel.mm */; };
+		F31C4E872A79EE0500EB3F1F /* MetalComputeEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E192A79EE0400EB3F1F /* MetalComputeEngine.h */; };
+		F31C4E882A79EE0500EB3F1F /* RenderUvs.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E1A2A79EE0400EB3F1F /* RenderUvs.hpp */; };
+		F31C4E892A79EE0500EB3F1F /* RenderUvs.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E1B2A79EE0400EB3F1F /* RenderUvs.mm */; };
+		F31C4E8A2A79EE0500EB3F1F /* SmoothDepthKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E1C2A79EE0400EB3F1F /* SmoothDepthKernel.h */; };
+		F31C4E8B2A79EE0500EB3F1F /* MetalDepthProcessorData.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E1D2A79EE0400EB3F1F /* MetalDepthProcessorData.mm */; };
+		F31C4E8C2A79EE0500EB3F1F /* ClearPassNan.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E1E2A79EE0400EB3F1F /* ClearPassNan.mm */; };
+		F31C4E8D2A79EE0500EB3F1F /* MetalSurfelIndexMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E1F2A79EE0400EB3F1F /* MetalSurfelIndexMap.mm */; };
+		F31C4E8E2A79EE0500EB3F1F /* ComputeNormalsKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E202A79EE0400EB3F1F /* ComputeNormalsKernel.mm */; };
+		F31C4E8F2A79EE0500EB3F1F /* MetalSurfelIndexMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E212A79EE0400EB3F1F /* MetalSurfelIndexMap.hpp */; };
+		F31C4E902A79EE0500EB3F1F /* ComputeWeightsKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E222A79EE0400EB3F1F /* ComputeWeightsKernel.h */; };
+		F31C4E912A79EE0500EB3F1F /* MetalDepthProcessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E232A79EE0400EB3F1F /* MetalDepthProcessor.hpp */; };
+		F31C4E922A79EE0500EB3F1F /* ComputePointsKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E242A79EE0400EB3F1F /* ComputePointsKernel.h */; };
+		F31C4E932A79EE0500EB3F1F /* SmoothDepthKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E252A79EE0400EB3F1F /* SmoothDepthKernel.mm */; };
+		F31C4E942A79EE0500EB3F1F /* RenderPositions.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E262A79EE0400EB3F1F /* RenderPositions.mm */; };
+		F31C4E952A79EE0500EB3F1F /* ComputeNormalsKernel.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E272A79EE0400EB3F1F /* ComputeNormalsKernel.metal */; };
+		F31C4E962A79EE0500EB3F1F /* InitializeDepthConfidenceKernel.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E282A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.metal */; };
+		F31C4E972A79EE0500EB3F1F /* ComputeWeightsKernel.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E292A79EE0400EB3F1F /* ComputeWeightsKernel.mm */; };
+		F31C4E982A79EE0500EB3F1F /* ComputeNormalsKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E2A2A79EE0400EB3F1F /* ComputeNormalsKernel.h */; };
+		F31C4E992A79EE0500EB3F1F /* ComputePointsKernel.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E2B2A79EE0400EB3F1F /* ComputePointsKernel.metal */; };
+		F31C4E9A2A79EE0500EB3F1F /* SurfelIndexMap.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E2C2A79EE0400EB3F1F /* SurfelIndexMap.metal */; };
+		F31C4E9B2A79EE0500EB3F1F /* InitializeDepthConfidenceKernel.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E2D2A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.h */; };
+		F31C4E9C2A79EE0500EB3F1F /* ClearPassNan.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E2E2A79EE0400EB3F1F /* ClearPassNan.hpp */; };
+		F31C4E9D2A79EE0500EB3F1F /* SmoothDepthKernel.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E2F2A79EE0400EB3F1F /* SmoothDepthKernel.metal */; };
+		F31C4E9E2A79EE0500EB3F1F /* ComputeWeightsKernel.metal in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E302A79EE0400EB3F1F /* ComputeWeightsKernel.metal */; };
+		F31C4E9F2A79EE0500EB3F1F /* MetalDepthProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E312A79EE0400EB3F1F /* MetalDepthProcessor.mm */; };
+		F31C4EA02A79EE0500EB3F1F /* MetalComputeEngine.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E322A79EE0400EB3F1F /* MetalComputeEngine.mm */; };
+		F31C4EA12A79EE0500EB3F1F /* MeshUvMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E342A79EE0400EB3F1F /* MeshUvMap.cpp */; };
+		F31C4EA22A79EE0500EB3F1F /* SurfelIndexMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E352A79EE0400EB3F1F /* SurfelIndexMap.hpp */; };
+		F31C4EA32A79EE0500EB3F1F /* DepthProcessor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E362A79EE0400EB3F1F /* DepthProcessor.hpp */; };
+		F31C4EA42A79EE0500EB3F1F /* SurfelFusion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E372A79EE0400EB3F1F /* SurfelFusion.cpp */; };
+		F31C4EA52A79EE0500EB3F1F /* GravityEstimator.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E382A79EE0400EB3F1F /* GravityEstimator.hpp */; };
+		F31C4EA62A79EE0500EB3F1F /* OutlierDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E392A79EE0400EB3F1F /* OutlierDetector.cpp */; };
+		F31C4EA72A79EE0500EB3F1F /* OfflineSurfelLandmarking.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E3A2A79EE0400EB3F1F /* OfflineSurfelLandmarking.cpp */; };
+		F31C4EA82A79EE0500EB3F1F /* PBFModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E3B2A79EE0400EB3F1F /* PBFModel.cpp */; };
+		F31C4EA92A79EE0500EB3F1F /* ICP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E3C2A79EE0400EB3F1F /* ICP.cpp */; };
+		F31C4EAA2A79EE0500EB3F1F /* maxrects.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E3D2A79EE0500EB3F1F /* maxrects.cpp */; };
+		F31C4EAB2A79EE0500EB3F1F /* OutlierDetector.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E3E2A79EE0500EB3F1F /* OutlierDetector.hpp */; };
+		F31C4EAC2A79EE0500EB3F1F /* OfflineSurfelLandmarking.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E3F2A79EE0500EB3F1F /* OfflineSurfelLandmarking.hpp */; };
+		F31C4EAD2A79EE0500EB3F1F /* PBFModel.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E402A79EE0500EB3F1F /* PBFModel.hpp */; };
+		F31C4EAE2A79EE0500EB3F1F /* ICP.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E412A79EE0500EB3F1F /* ICP.hpp */; };
+		F31C4EAF2A79EE0500EB3F1F /* maxrects.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E422A79EE0500EB3F1F /* maxrects.hpp */; };
+		F31C4EB02A79EE0500EB3F1F /* PBFDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E432A79EE0500EB3F1F /* PBFDefinitions.h */; };
+		F31C4EB12A79EE0500EB3F1F /* MeshUvMap.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E442A79EE0500EB3F1F /* MeshUvMap.hpp */; };
+		F31C4EB22A79EE0500EB3F1F /* KDTreeAdaptor.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E452A79EE0500EB3F1F /* KDTreeAdaptor.hpp */; };
+		F31C4EB32A79EE0500EB3F1F /* SurfelFusion.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E462A79EE0500EB3F1F /* SurfelFusion.hpp */; };
+		F31C4EB42A79EE0500EB3F1F /* GravityEstimator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E472A79EE0500EB3F1F /* GravityEstimator.cpp */; };
+		F31C4EB52A79EE0500EB3F1F /* MetalTextureProjection.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E482A79EE0500EB3F1F /* MetalTextureProjection.mm */; };
+		F31C4EB62A79EE0500EB3F1F /* MetalTextureProjection.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E492A79EE0500EB3F1F /* MetalTextureProjection.hpp */; };
+		F31C4EB72A79EE0500EB3F1F /* ThreadPool.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E4B2A79EE0500EB3F1F /* ThreadPool.hpp */; };
+		F31C4EB82A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E4C2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.mm */; };
+		F31C4EB92A79EE0500EB3F1F /* SceneKit+BoundingBox3.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E4E2A79EE0500EB3F1F /* SceneKit+BoundingBox3.h */; };
+		F31C4EBA2A79EE0500EB3F1F /* SceneKit+Plane.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E4F2A79EE0500EB3F1F /* SceneKit+Plane.h */; };
+		F31C4EBB2A79EE0500EB3F1F /* SceneKit+Lines.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E502A79EE0500EB3F1F /* SceneKit+Lines.mm */; };
+		F31C4EBC2A79EE0500EB3F1F /* SceneKit+Polyline.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E512A79EE0500EB3F1F /* SceneKit+Polyline.h */; };
+		F31C4EBD2A79EE0500EB3F1F /* SceneKit+Plane.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E522A79EE0500EB3F1F /* SceneKit+Plane.mm */; };
+		F31C4EBE2A79EE0500EB3F1F /* SceneKit+Lines.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E532A79EE0500EB3F1F /* SceneKit+Lines.h */; };
+		F31C4EBF2A79EE0500EB3F1F /* SceneKit+Geometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E542A79EE0500EB3F1F /* SceneKit+Geometry.mm */; };
+		F31C4EC02A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E552A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.h */; };
+		F31C4EC12A79EE0500EB3F1F /* SceneKit+Mat3x3.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E562A79EE0500EB3F1F /* SceneKit+Mat3x3.mm */; };
+		F31C4EC22A79EE0500EB3F1F /* SceneKit+Polyline.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E572A79EE0500EB3F1F /* SceneKit+Polyline.mm */; };
+		F31C4EC32A79EE0500EB3F1F /* SceneKit+Mat3x3.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E582A79EE0500EB3F1F /* SceneKit+Mat3x3.h */; };
+		F31C4EC42A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E592A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.mm */; };
+		F31C4EC52A79EE0500EB3F1F /* SceneKit+Mat3x4.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E5A2A79EE0500EB3F1F /* SceneKit+Mat3x4.mm */; };
+		F31C4EC62A79EE0500EB3F1F /* SceneKit+Geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E5B2A79EE0500EB3F1F /* SceneKit+Geometry.h */; };
+		F31C4EC72A79EE0500EB3F1F /* SceneKit+BoundingBox3.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E5C2A79EE0500EB3F1F /* SceneKit+BoundingBox3.mm */; };
+		F31C4EC82A79EE0500EB3F1F /* SceneKit+Mat3x4.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E5D2A79EE0500EB3F1F /* SceneKit+Mat3x4.h */; };
+		F31C4EC92A79EE0500EB3F1F /* EigenHelpers.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E5E2A79EE0500EB3F1F /* EigenHelpers.hpp */; };
+		F31C4ECA2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E5F2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.hpp */; };
+		F31C4ECB2A79EE0500EB3F1F /* DebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E602A79EE0500EB3F1F /* DebugLog.h */; };
+		F31C4ECC2A79EE0500EB3F1F /* MathHelpers.h in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E612A79EE0500EB3F1F /* MathHelpers.h */; };
+		F31C4ECD2A79EE0500EB3F1F /* crc32.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E622A79EE0500EB3F1F /* crc32.cpp */; };
+		F31C4ECE2A79EE0500EB3F1F /* GeometryHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E632A79EE0500EB3F1F /* GeometryHelpers.cpp */; };
+		F31C4ECF2A79EE0500EB3F1F /* crc32.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E642A79EE0500EB3F1F /* crc32.hpp */; };
+		F31C4ED02A79EE0500EB3F1F /* FastRand.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E652A79EE0500EB3F1F /* FastRand.hpp */; };
+		F31C4ED12A79EE0500EB3F1F /* GeometryHelpers.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E662A79EE0500EB3F1F /* GeometryHelpers.hpp */; };
+		F31C4ED22A79EE0500EB3F1F /* MathHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E672A79EE0500EB3F1F /* MathHelpers.m */; };
+		F31C4ED32A79EE0500EB3F1F /* ThreadPool.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E682A79EE0500EB3F1F /* ThreadPool.cpp */; };
+		F31C4ED42A79EE0500EB3F1F /* EigenHelpers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E692A79EE0500EB3F1F /* EigenHelpers.cpp */; };
+		F31C4ED52A79EE0500EB3F1F /* PointCloudIO_OBJ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E6B2A79EE0500EB3F1F /* PointCloudIO_OBJ.cpp */; };
+		F31C4ED62A79EE0500EB3F1F /* PointCloudIO_PLY.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E6C2A79EE0500EB3F1F /* PointCloudIO_PLY.mm */; };
+		F31C4ED72A79EE0500EB3F1F /* PointCloudIO.mm in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E6D2A79EE0500EB3F1F /* PointCloudIO.mm */; };
+		F31C4ED82A79EE0500EB3F1F /* PointCloudIO_JSON.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E6E2A79EE0500EB3F1F /* PointCloudIO_JSON.cpp */; };
+		F31C4ED92A79EE0500EB3F1F /* WriteUSDZCompatibleZip.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E6F2A79EE0500EB3F1F /* WriteUSDZCompatibleZip.hpp */; };
+		F31C4EDA2A79EE0500EB3F1F /* PointCloudIO.hpp in Headers */ = {isa = PBXBuildFile; fileRef = F31C4E702A79EE0500EB3F1F /* PointCloudIO.hpp */; };
+		F31C4EDB2A79EE0500EB3F1F /* WriteUSDZCompatibleZip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E712A79EE0500EB3F1F /* WriteUSDZCompatibleZip.cpp */; };
+		F31C4EDC2A79EE0500EB3F1F /* PointCloudIO_USDZ.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F31C4E722A79EE0500EB3F1F /* PointCloudIO_USDZ.cpp */; };
+		F31C4EDE2A7A1C5F00EB3F1F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F31C4EDD2A7A1C5F00EB3F1F /* README.md */; };
+		F31C4F0E2A7B392700EB3F1F /* libPoissonRecon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0B2A7B392400EB3F1F /* libPoissonRecon.a */; };
+		F31C4F0F2A7B392700EB3F1F /* libscsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0C2A7B392400EB3F1F /* libscsdk.a */; };
+		F31C4F102A7B392700EB3F1F /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0D2A7B392400EB3F1F /* libSSZipArchive.a */; };
+		F96DEBD6D00DD1E3D466966B /* libPods-StandardCyborgFusion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B05E7A1873C05D0F8A2356DA /* libPods-StandardCyborgFusion.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E6C9C7A099C3E8A8AD9730A /* Pods-StandardCyborgFusion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardCyborgFusion.release.xcconfig"; path = "Target Support Files/Pods-StandardCyborgFusion/Pods-StandardCyborgFusion.release.xcconfig"; sourceTree = "<group>"; };
+		B05E7A1873C05D0F8A2356DA /* libPods-StandardCyborgFusion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StandardCyborgFusion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA9184D2B7F01A4769B924E0 /* Pods-StandardCyborgFusion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StandardCyborgFusion.debug.xcconfig"; path = "Target Support Files/Pods-StandardCyborgFusion/Pods-StandardCyborgFusion.debug.xcconfig"; sourceTree = "<group>"; };
+		F31C4D862A79E11F00EB3F1F /* StandardCyborgFusion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StandardCyborgFusion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31C4D892A79E11F00EB3F1F /* StandardCyborgFusion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StandardCyborgFusion.h; sourceTree = "<group>"; };
+		F31C4D912A79E72B00EB3F1F /* SCFootTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCFootTracking.m; sourceTree = "<group>"; };
+		F31C4D932A79E72B00EB3F1F /* SCMeshTexturing.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCMeshTexturing.mm; sourceTree = "<group>"; };
+		F31C4D942A79E72B00EB3F1F /* SCMesh+FileIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SCMesh+FileIO.mm"; sourceTree = "<group>"; };
+		F31C4D952A79E72B00EB3F1F /* SCMesh+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCMesh+Geometry.h"; sourceTree = "<group>"; };
+		F31C4D962A79E72B00EB3F1F /* SCMeshTexturing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMeshTexturing.h; sourceTree = "<group>"; };
+		F31C4D972A79E72B00EB3F1F /* SCMesh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMesh.h; sourceTree = "<group>"; };
+		F31C4D982A79E72B00EB3F1F /* SCMeshingOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCMeshingOperation.m; sourceTree = "<group>"; };
+		F31C4D992A79E72B00EB3F1F /* SCMesh.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCMesh.mm; sourceTree = "<group>"; };
+		F31C4D9A2A79E72B00EB3F1F /* SCMesh+SceneKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCMesh+SceneKit.m"; sourceTree = "<group>"; };
+		F31C4D9B2A79E72B00EB3F1F /* SCMesh+Geometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SCMesh+Geometry.mm"; sourceTree = "<group>"; };
+		F31C4D9C2A79E72B00EB3F1F /* SCMesh_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMesh_Private.h; sourceTree = "<group>"; };
+		F31C4D9D2A79E72B00EB3F1F /* SCMesh+FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCMesh+FileIO.h"; sourceTree = "<group>"; };
+		F31C4D9E2A79E72B00EB3F1F /* SCMesh+SceneKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCMesh+SceneKit.h"; sourceTree = "<group>"; };
+		F31C4D9F2A79E72B00EB3F1F /* SCMeshingOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCMeshingOperation.h; sourceTree = "<group>"; };
+		F31C4DA02A79E72B00EB3F1F /* SCEarTracking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCEarTracking.m; sourceTree = "<group>"; };
+		F31C4DA22A79E72B00EB3F1F /* SCLandmark3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLandmark3D.m; sourceTree = "<group>"; };
+		F31C4DA32A79E72B00EB3F1F /* SCLandmark2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCLandmark2D.m; sourceTree = "<group>"; };
+		F31C4DA42A79E72B00EB3F1F /* SCLandmarking2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLandmarking2D.h; sourceTree = "<group>"; };
+		F31C4DA52A79E72B00EB3F1F /* SCLandmark3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLandmark3D.h; sourceTree = "<group>"; };
+		F31C4DA62A79E72B00EB3F1F /* SCLandmark2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLandmark2D.h; sourceTree = "<group>"; };
+		F31C4DA72A79E72B00EB3F1F /* SCLandmark2D_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCLandmark2D_Private.h; sourceTree = "<group>"; };
+		F31C4DA82A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAssimilatedFrameMetadata.m; sourceTree = "<group>"; };
+		F31C4DA92A79E72B00EB3F1F /* SCAssimilatedFrameMetadata_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAssimilatedFrameMetadata_Private.h; sourceTree = "<group>"; };
+		F31C4DAA2A79E72B00EB3F1F /* SCOfflineReconstructionManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOfflineReconstructionManager_Private.h; sourceTree = "<group>"; };
+		F31C4DAB2A79E72B00EB3F1F /* CVPixelBufferHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVPixelBufferHelpers.m; sourceTree = "<group>"; };
+		F31C4DAC2A79E72B00EB3F1F /* SCFootTrackingModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SCFootTrackingModel.mlmodel; sourceTree = "<group>"; };
+		F31C4DAD2A79E72B00EB3F1F /* SCScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCScene.h; sourceTree = "<group>"; };
+		F31C4DAE2A79E72B00EB3F1F /* SCEarTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCEarTracking.h; sourceTree = "<group>"; };
+		F31C4DAF2A79E72B00EB3F1F /* SCEarTrackingModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SCEarTrackingModel.mlmodel; sourceTree = "<group>"; };
+		F31C4DB02A79E72B00EB3F1F /* SCScene.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCScene.mm; sourceTree = "<group>"; };
+		F31C4DB12A79E72B00EB3F1F /* SCReconstructionManagerParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCReconstructionManagerParameters.h; sourceTree = "<group>"; };
+		F31C4DB22A79E72B00EB3F1F /* SCOfflineReconstructionManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCOfflineReconstructionManager.mm; sourceTree = "<group>"; };
+		F31C4DB32A79E72B00EB3F1F /* SCFootTracking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCFootTracking.h; sourceTree = "<group>"; };
+		F31C4DB42A79E72B00EB3F1F /* SCOfflineReconstructionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOfflineReconstructionManager.h; sourceTree = "<group>"; };
+		F31C4DB52A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAssimilatedFrameMetadata.h; sourceTree = "<group>"; };
+		F31C4DB62A79E72B00EB3F1F /* SCReconstructionManager_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCReconstructionManager_Private.h; sourceTree = "<group>"; };
+		F31C4DB72A79E72B00EB3F1F /* SCReconstructionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCReconstructionManager.h; sourceTree = "<group>"; };
+		F31C4DB82A79E72B00EB3F1F /* CVPixelBufferHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVPixelBufferHelpers.h; sourceTree = "<group>"; };
+		F31C4DBA2A79E72B00EB3F1F /* SCPointCloud+SceneKit.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SCPointCloud+SceneKit.mm"; sourceTree = "<group>"; };
+		F31C4DBB2A79E72B00EB3F1F /* SCPointCloud.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPointCloud.h; sourceTree = "<group>"; };
+		F31C4DBC2A79E72B00EB3F1F /* SCPointCloud+Metal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPointCloud+Metal.h"; sourceTree = "<group>"; };
+		F31C4DBD2A79E72B00EB3F1F /* SCPointCloud.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCPointCloud.mm; sourceTree = "<group>"; };
+		F31C4DBE2A79E72B00EB3F1F /* SCPointCloud+SceneKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPointCloud+SceneKit.h"; sourceTree = "<group>"; };
+		F31C4DBF2A79E72B00EB3F1F /* SCPointCloud+FileIO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPointCloud+FileIO.h"; sourceTree = "<group>"; };
+		F31C4DC02A79E72B00EB3F1F /* SCPointCloud+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCPointCloud+Geometry.h"; sourceTree = "<group>"; };
+		F31C4DC12A79E72B00EB3F1F /* SCPointCloud_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPointCloud_Private.h; sourceTree = "<group>"; };
+		F31C4DC22A79E72B00EB3F1F /* SCPointCloud+Metal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCPointCloud+Metal.m"; sourceTree = "<group>"; };
+		F31C4DC32A79E72B00EB3F1F /* SCPointCloud+Geometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SCPointCloud+Geometry.mm"; sourceTree = "<group>"; };
+		F31C4DC42A79E72B00EB3F1F /* SCPointCloud+FileIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SCPointCloud+FileIO.mm"; sourceTree = "<group>"; };
+		F31C4DC52A79E72B00EB3F1F /* SCReconstructionManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SCReconstructionManager.mm; sourceTree = "<group>"; };
+		F31C4DC62A79E72B00EB3F1F /* PBFFinalStatistics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFFinalStatistics.h; sourceTree = "<group>"; };
+		F31C4DC72A79E72B00EB3F1F /* SCReconstructionManagerParameters_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCReconstructionManagerParameters_Private.h; sourceTree = "<group>"; };
+		F31C4E032A79EE0400EB3F1F /* SparseSurfelLandmarksIndex.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SparseSurfelLandmarksIndex.hpp; sourceTree = "<group>"; };
+		F31C4E042A79EE0400EB3F1F /* RawFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RawFrame.hpp; sourceTree = "<group>"; };
+		F31C4E052A79EE0400EB3F1F /* PBFConfiguration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PBFConfiguration.cpp; sourceTree = "<group>"; };
+		F31C4E062A79EE0400EB3F1F /* Surfel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Surfel.hpp; sourceTree = "<group>"; };
+		F31C4E072A79EE0400EB3F1F /* ProcessedFrame.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ProcessedFrame.hpp; sourceTree = "<group>"; };
+		F31C4E082A79EE0400EB3F1F /* PBFAssimilatedFrameMetadata.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PBFAssimilatedFrameMetadata.hpp; sourceTree = "<group>"; };
+		F31C4E092A79EE0400EB3F1F /* PBFConfiguration.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PBFConfiguration.hpp; sourceTree = "<group>"; };
+		F31C4E0A2A79EE0400EB3F1F /* SparseSurfelLandmarksIndex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SparseSurfelLandmarksIndex.cpp; sourceTree = "<group>"; };
+		F31C4E0B2A79EE0400EB3F1F /* ScreenSpaceLandmark.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ScreenSpaceLandmark.hpp; sourceTree = "<group>"; };
+		F31C4E0D2A79EE0400EB3F1F /* SCEarLandmarking.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SCEarLandmarking.mlmodel; sourceTree = "<group>"; };
+		F31C4E0E2A79EE0400EB3F1F /* EarLandmarkingAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EarLandmarkingAnalysis.m; sourceTree = "<group>"; };
+		F31C4E0F2A79EE0400EB3F1F /* EarLandmarkingAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EarLandmarkingAnalysis.h; sourceTree = "<group>"; };
+		F31C4E112A79EE0400EB3F1F /* RenderPositions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RenderPositions.hpp; sourceTree = "<group>"; };
+		F31C4E122A79EE0400EB3F1F /* ApplyLensCalibration.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ApplyLensCalibration.metal; sourceTree = "<group>"; };
+		F31C4E132A79EE0400EB3F1F /* MetalDepthProcessorData.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MetalDepthProcessorData.hpp; sourceTree = "<group>"; };
+		F31C4E142A79EE0400EB3F1F /* UvToColor.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = UvToColor.metal; sourceTree = "<group>"; };
+		F31C4E152A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = InitializeDepthConfidenceKernel.mm; sourceTree = "<group>"; };
+		F31C4E162A79EE0400EB3F1F /* RenderUvs.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = RenderUvs.metal; sourceTree = "<group>"; };
+		F31C4E172A79EE0400EB3F1F /* RenderPositions.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = RenderPositions.metal; sourceTree = "<group>"; };
+		F31C4E182A79EE0400EB3F1F /* ComputePointsKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ComputePointsKernel.mm; sourceTree = "<group>"; };
+		F31C4E192A79EE0400EB3F1F /* MetalComputeEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetalComputeEngine.h; sourceTree = "<group>"; };
+		F31C4E1A2A79EE0400EB3F1F /* RenderUvs.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RenderUvs.hpp; sourceTree = "<group>"; };
+		F31C4E1B2A79EE0400EB3F1F /* RenderUvs.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderUvs.mm; sourceTree = "<group>"; };
+		F31C4E1C2A79EE0400EB3F1F /* SmoothDepthKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothDepthKernel.h; sourceTree = "<group>"; };
+		F31C4E1D2A79EE0400EB3F1F /* MetalDepthProcessorData.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalDepthProcessorData.mm; sourceTree = "<group>"; };
+		F31C4E1E2A79EE0400EB3F1F /* ClearPassNan.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ClearPassNan.mm; sourceTree = "<group>"; };
+		F31C4E1F2A79EE0400EB3F1F /* MetalSurfelIndexMap.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalSurfelIndexMap.mm; sourceTree = "<group>"; };
+		F31C4E202A79EE0400EB3F1F /* ComputeNormalsKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ComputeNormalsKernel.mm; sourceTree = "<group>"; };
+		F31C4E212A79EE0400EB3F1F /* MetalSurfelIndexMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MetalSurfelIndexMap.hpp; sourceTree = "<group>"; };
+		F31C4E222A79EE0400EB3F1F /* ComputeWeightsKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeWeightsKernel.h; sourceTree = "<group>"; };
+		F31C4E232A79EE0400EB3F1F /* MetalDepthProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MetalDepthProcessor.hpp; sourceTree = "<group>"; };
+		F31C4E242A79EE0400EB3F1F /* ComputePointsKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputePointsKernel.h; sourceTree = "<group>"; };
+		F31C4E252A79EE0400EB3F1F /* SmoothDepthKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmoothDepthKernel.mm; sourceTree = "<group>"; };
+		F31C4E262A79EE0400EB3F1F /* RenderPositions.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RenderPositions.mm; sourceTree = "<group>"; };
+		F31C4E272A79EE0400EB3F1F /* ComputeNormalsKernel.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ComputeNormalsKernel.metal; sourceTree = "<group>"; };
+		F31C4E282A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = InitializeDepthConfidenceKernel.metal; sourceTree = "<group>"; };
+		F31C4E292A79EE0400EB3F1F /* ComputeWeightsKernel.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ComputeWeightsKernel.mm; sourceTree = "<group>"; };
+		F31C4E2A2A79EE0400EB3F1F /* ComputeNormalsKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComputeNormalsKernel.h; sourceTree = "<group>"; };
+		F31C4E2B2A79EE0400EB3F1F /* ComputePointsKernel.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ComputePointsKernel.metal; sourceTree = "<group>"; };
+		F31C4E2C2A79EE0400EB3F1F /* SurfelIndexMap.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SurfelIndexMap.metal; sourceTree = "<group>"; };
+		F31C4E2D2A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitializeDepthConfidenceKernel.h; sourceTree = "<group>"; };
+		F31C4E2E2A79EE0400EB3F1F /* ClearPassNan.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ClearPassNan.hpp; sourceTree = "<group>"; };
+		F31C4E2F2A79EE0400EB3F1F /* SmoothDepthKernel.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = SmoothDepthKernel.metal; sourceTree = "<group>"; };
+		F31C4E302A79EE0400EB3F1F /* ComputeWeightsKernel.metal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.metal; path = ComputeWeightsKernel.metal; sourceTree = "<group>"; };
+		F31C4E312A79EE0400EB3F1F /* MetalDepthProcessor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalDepthProcessor.mm; sourceTree = "<group>"; };
+		F31C4E322A79EE0400EB3F1F /* MetalComputeEngine.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalComputeEngine.mm; sourceTree = "<group>"; };
+		F31C4E342A79EE0400EB3F1F /* MeshUvMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MeshUvMap.cpp; sourceTree = "<group>"; };
+		F31C4E352A79EE0400EB3F1F /* SurfelIndexMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SurfelIndexMap.hpp; sourceTree = "<group>"; };
+		F31C4E362A79EE0400EB3F1F /* DepthProcessor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DepthProcessor.hpp; sourceTree = "<group>"; };
+		F31C4E372A79EE0400EB3F1F /* SurfelFusion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SurfelFusion.cpp; sourceTree = "<group>"; };
+		F31C4E382A79EE0400EB3F1F /* GravityEstimator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GravityEstimator.hpp; sourceTree = "<group>"; };
+		F31C4E392A79EE0400EB3F1F /* OutlierDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OutlierDetector.cpp; sourceTree = "<group>"; };
+		F31C4E3A2A79EE0400EB3F1F /* OfflineSurfelLandmarking.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OfflineSurfelLandmarking.cpp; sourceTree = "<group>"; };
+		F31C4E3B2A79EE0400EB3F1F /* PBFModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PBFModel.cpp; sourceTree = "<group>"; };
+		F31C4E3C2A79EE0400EB3F1F /* ICP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ICP.cpp; sourceTree = "<group>"; };
+		F31C4E3D2A79EE0500EB3F1F /* maxrects.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = maxrects.cpp; sourceTree = "<group>"; };
+		F31C4E3E2A79EE0500EB3F1F /* OutlierDetector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OutlierDetector.hpp; sourceTree = "<group>"; };
+		F31C4E3F2A79EE0500EB3F1F /* OfflineSurfelLandmarking.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = OfflineSurfelLandmarking.hpp; sourceTree = "<group>"; };
+		F31C4E402A79EE0500EB3F1F /* PBFModel.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PBFModel.hpp; sourceTree = "<group>"; };
+		F31C4E412A79EE0500EB3F1F /* ICP.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ICP.hpp; sourceTree = "<group>"; };
+		F31C4E422A79EE0500EB3F1F /* maxrects.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = maxrects.hpp; sourceTree = "<group>"; };
+		F31C4E432A79EE0500EB3F1F /* PBFDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBFDefinitions.h; sourceTree = "<group>"; };
+		F31C4E442A79EE0500EB3F1F /* MeshUvMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MeshUvMap.hpp; sourceTree = "<group>"; };
+		F31C4E452A79EE0500EB3F1F /* KDTreeAdaptor.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KDTreeAdaptor.hpp; sourceTree = "<group>"; };
+		F31C4E462A79EE0500EB3F1F /* SurfelFusion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SurfelFusion.hpp; sourceTree = "<group>"; };
+		F31C4E472A79EE0500EB3F1F /* GravityEstimator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GravityEstimator.cpp; sourceTree = "<group>"; };
+		F31C4E482A79EE0500EB3F1F /* MetalTextureProjection.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalTextureProjection.mm; sourceTree = "<group>"; };
+		F31C4E492A79EE0500EB3F1F /* MetalTextureProjection.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MetalTextureProjection.hpp; sourceTree = "<group>"; };
+		F31C4E4B2A79EE0500EB3F1F /* ThreadPool.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ThreadPool.hpp; sourceTree = "<group>"; };
+		F31C4E4C2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "PerspectiveCamera+AVFoundation.mm"; sourceTree = "<group>"; };
+		F31C4E4E2A79EE0500EB3F1F /* SceneKit+BoundingBox3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+BoundingBox3.h"; sourceTree = "<group>"; };
+		F31C4E4F2A79EE0500EB3F1F /* SceneKit+Plane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+Plane.h"; sourceTree = "<group>"; };
+		F31C4E502A79EE0500EB3F1F /* SceneKit+Lines.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+Lines.mm"; sourceTree = "<group>"; };
+		F31C4E512A79EE0500EB3F1F /* SceneKit+Polyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+Polyline.h"; sourceTree = "<group>"; };
+		F31C4E522A79EE0500EB3F1F /* SceneKit+Plane.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+Plane.mm"; sourceTree = "<group>"; };
+		F31C4E532A79EE0500EB3F1F /* SceneKit+Lines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+Lines.h"; sourceTree = "<group>"; };
+		F31C4E542A79EE0500EB3F1F /* SceneKit+Geometry.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+Geometry.mm"; sourceTree = "<group>"; };
+		F31C4E552A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+StandardCyborgNode.h"; sourceTree = "<group>"; };
+		F31C4E562A79EE0500EB3F1F /* SceneKit+Mat3x3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+Mat3x3.mm"; sourceTree = "<group>"; };
+		F31C4E572A79EE0500EB3F1F /* SceneKit+Polyline.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+Polyline.mm"; sourceTree = "<group>"; };
+		F31C4E582A79EE0500EB3F1F /* SceneKit+Mat3x3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+Mat3x3.h"; sourceTree = "<group>"; };
+		F31C4E592A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+StandardCyborgNode.mm"; sourceTree = "<group>"; };
+		F31C4E5A2A79EE0500EB3F1F /* SceneKit+Mat3x4.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+Mat3x4.mm"; sourceTree = "<group>"; };
+		F31C4E5B2A79EE0500EB3F1F /* SceneKit+Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+Geometry.h"; sourceTree = "<group>"; };
+		F31C4E5C2A79EE0500EB3F1F /* SceneKit+BoundingBox3.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "SceneKit+BoundingBox3.mm"; sourceTree = "<group>"; };
+		F31C4E5D2A79EE0500EB3F1F /* SceneKit+Mat3x4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SceneKit+Mat3x4.h"; sourceTree = "<group>"; };
+		F31C4E5E2A79EE0500EB3F1F /* EigenHelpers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EigenHelpers.hpp; sourceTree = "<group>"; };
+		F31C4E5F2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = "PerspectiveCamera+AVFoundation.hpp"; sourceTree = "<group>"; };
+		F31C4E602A79EE0500EB3F1F /* DebugLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DebugLog.h; sourceTree = "<group>"; };
+		F31C4E612A79EE0500EB3F1F /* MathHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MathHelpers.h; sourceTree = "<group>"; };
+		F31C4E622A79EE0500EB3F1F /* crc32.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = crc32.cpp; sourceTree = "<group>"; };
+		F31C4E632A79EE0500EB3F1F /* GeometryHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GeometryHelpers.cpp; sourceTree = "<group>"; };
+		F31C4E642A79EE0500EB3F1F /* crc32.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = crc32.hpp; sourceTree = "<group>"; };
+		F31C4E652A79EE0500EB3F1F /* FastRand.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = FastRand.hpp; sourceTree = "<group>"; };
+		F31C4E662A79EE0500EB3F1F /* GeometryHelpers.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GeometryHelpers.hpp; sourceTree = "<group>"; };
+		F31C4E672A79EE0500EB3F1F /* MathHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MathHelpers.m; sourceTree = "<group>"; };
+		F31C4E682A79EE0500EB3F1F /* ThreadPool.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreadPool.cpp; sourceTree = "<group>"; };
+		F31C4E692A79EE0500EB3F1F /* EigenHelpers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EigenHelpers.cpp; sourceTree = "<group>"; };
+		F31C4E6B2A79EE0500EB3F1F /* PointCloudIO_OBJ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointCloudIO_OBJ.cpp; sourceTree = "<group>"; };
+		F31C4E6C2A79EE0500EB3F1F /* PointCloudIO_PLY.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointCloudIO_PLY.mm; sourceTree = "<group>"; };
+		F31C4E6D2A79EE0500EB3F1F /* PointCloudIO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PointCloudIO.mm; sourceTree = "<group>"; };
+		F31C4E6E2A79EE0500EB3F1F /* PointCloudIO_JSON.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointCloudIO_JSON.cpp; sourceTree = "<group>"; };
+		F31C4E6F2A79EE0500EB3F1F /* WriteUSDZCompatibleZip.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WriteUSDZCompatibleZip.hpp; sourceTree = "<group>"; };
+		F31C4E702A79EE0500EB3F1F /* PointCloudIO.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PointCloudIO.hpp; sourceTree = "<group>"; };
+		F31C4E712A79EE0500EB3F1F /* WriteUSDZCompatibleZip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WriteUSDZCompatibleZip.cpp; sourceTree = "<group>"; };
+		F31C4E722A79EE0500EB3F1F /* PointCloudIO_USDZ.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PointCloudIO_USDZ.cpp; sourceTree = "<group>"; };
+		F31C4EDD2A7A1C5F00EB3F1F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		F31C4F0A2A7B392400EB3F1F /* libPods-StandardCyborgFusion.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libPods-StandardCyborgFusion.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31C4F0B2A7B392400EB3F1F /* libPoissonRecon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPoissonRecon.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31C4F0C2A7B392400EB3F1F /* libscsdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libscsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31C4F0D2A7B392400EB3F1F /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F31C4D832A79E11F00EB3F1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F96DEBD6D00DD1E3D466966B /* libPods-StandardCyborgFusion.a in Frameworks */,
+				F31C4F0F2A7B392700EB3F1F /* libscsdk.a in Frameworks */,
+				F31C4F102A7B392700EB3F1F /* libSSZipArchive.a in Frameworks */,
+				F31C4F0E2A7B392700EB3F1F /* libPoissonRecon.a in Frameworks */,
+				3310D981C488E177406A5935 /* libPods-StandardCyborgFusion.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		78B79C2F02FCBCE0ECEE5E26 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA9184D2B7F01A4769B924E0 /* Pods-StandardCyborgFusion.debug.xcconfig */,
+				2E6C9C7A099C3E8A8AD9730A /* Pods-StandardCyborgFusion.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E954CECBC34E7DBAAA3B9F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4F0A2A7B392400EB3F1F /* libPods-StandardCyborgFusion.a */,
+				F31C4F0B2A7B392400EB3F1F /* libPoissonRecon.a */,
+				F31C4F0C2A7B392400EB3F1F /* libscsdk.a */,
+				F31C4F0D2A7B392400EB3F1F /* libSSZipArchive.a */,
+				B05E7A1873C05D0F8A2356DA /* libPods-StandardCyborgFusion.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F31C4D7C2A79E11F00EB3F1F = {
+			isa = PBXGroup;
+			children = (
+				F31C4D882A79E11F00EB3F1F /* StandardCyborgFusion */,
+				F31C4D872A79E11F00EB3F1F /* Products */,
+				78B79C2F02FCBCE0ECEE5E26 /* Pods */,
+				7E954CECBC34E7DBAAA3B9F1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F31C4D872A79E11F00EB3F1F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4D862A79E11F00EB3F1F /* StandardCyborgFusion.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F31C4D882A79E11F00EB3F1F /* StandardCyborgFusion */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E332A79EE0400EB3F1F /* Algorithm */,
+				F31C4E022A79EE0400EB3F1F /* DataStructures */,
+				F31C4E0C2A79EE0400EB3F1F /* EarLandmarking */,
+				F31C4E4A2A79EE0500EB3F1F /* Helpers */,
+				F31C4E6A2A79EE0500EB3F1F /* IO */,
+				F31C4E102A79EE0400EB3F1F /* MetalDepthProcessor */,
+				F31C4D902A79E72B00EB3F1F /* Public */,
+				F31C4D892A79E11F00EB3F1F /* StandardCyborgFusion.h */,
+				F31C4EDD2A7A1C5F00EB3F1F /* README.md */,
+			);
+			path = StandardCyborgFusion;
+			sourceTree = "<group>";
+		};
+		F31C4D902A79E72B00EB3F1F /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4D912A79E72B00EB3F1F /* SCFootTracking.m */,
+				F31C4D922A79E72B00EB3F1F /* Mesh */,
+				F31C4DA02A79E72B00EB3F1F /* SCEarTracking.m */,
+				F31C4DA12A79E72B00EB3F1F /* Landmark */,
+				F31C4DA82A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.m */,
+				F31C4DA92A79E72B00EB3F1F /* SCAssimilatedFrameMetadata_Private.h */,
+				F31C4DAA2A79E72B00EB3F1F /* SCOfflineReconstructionManager_Private.h */,
+				F31C4DAB2A79E72B00EB3F1F /* CVPixelBufferHelpers.m */,
+				F31C4DAC2A79E72B00EB3F1F /* SCFootTrackingModel.mlmodel */,
+				F31C4DAD2A79E72B00EB3F1F /* SCScene.h */,
+				F31C4DAE2A79E72B00EB3F1F /* SCEarTracking.h */,
+				F31C4DAF2A79E72B00EB3F1F /* SCEarTrackingModel.mlmodel */,
+				F31C4DB02A79E72B00EB3F1F /* SCScene.mm */,
+				F31C4DB12A79E72B00EB3F1F /* SCReconstructionManagerParameters.h */,
+				F31C4DB22A79E72B00EB3F1F /* SCOfflineReconstructionManager.mm */,
+				F31C4DB32A79E72B00EB3F1F /* SCFootTracking.h */,
+				F31C4DB42A79E72B00EB3F1F /* SCOfflineReconstructionManager.h */,
+				F31C4DB52A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.h */,
+				F31C4DB62A79E72B00EB3F1F /* SCReconstructionManager_Private.h */,
+				F31C4DB72A79E72B00EB3F1F /* SCReconstructionManager.h */,
+				F31C4DB82A79E72B00EB3F1F /* CVPixelBufferHelpers.h */,
+				F31C4DB92A79E72B00EB3F1F /* PointCloud */,
+				F31C4DC52A79E72B00EB3F1F /* SCReconstructionManager.mm */,
+				F31C4DC62A79E72B00EB3F1F /* PBFFinalStatistics.h */,
+				F31C4DC72A79E72B00EB3F1F /* SCReconstructionManagerParameters_Private.h */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		F31C4D922A79E72B00EB3F1F /* Mesh */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4D932A79E72B00EB3F1F /* SCMeshTexturing.mm */,
+				F31C4D942A79E72B00EB3F1F /* SCMesh+FileIO.mm */,
+				F31C4D952A79E72B00EB3F1F /* SCMesh+Geometry.h */,
+				F31C4D962A79E72B00EB3F1F /* SCMeshTexturing.h */,
+				F31C4D972A79E72B00EB3F1F /* SCMesh.h */,
+				F31C4D982A79E72B00EB3F1F /* SCMeshingOperation.m */,
+				F31C4D992A79E72B00EB3F1F /* SCMesh.mm */,
+				F31C4D9A2A79E72B00EB3F1F /* SCMesh+SceneKit.m */,
+				F31C4D9B2A79E72B00EB3F1F /* SCMesh+Geometry.mm */,
+				F31C4D9C2A79E72B00EB3F1F /* SCMesh_Private.h */,
+				F31C4D9D2A79E72B00EB3F1F /* SCMesh+FileIO.h */,
+				F31C4D9E2A79E72B00EB3F1F /* SCMesh+SceneKit.h */,
+				F31C4D9F2A79E72B00EB3F1F /* SCMeshingOperation.h */,
+			);
+			path = Mesh;
+			sourceTree = "<group>";
+		};
+		F31C4DA12A79E72B00EB3F1F /* Landmark */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4DA22A79E72B00EB3F1F /* SCLandmark3D.m */,
+				F31C4DA32A79E72B00EB3F1F /* SCLandmark2D.m */,
+				F31C4DA42A79E72B00EB3F1F /* SCLandmarking2D.h */,
+				F31C4DA52A79E72B00EB3F1F /* SCLandmark3D.h */,
+				F31C4DA62A79E72B00EB3F1F /* SCLandmark2D.h */,
+				F31C4DA72A79E72B00EB3F1F /* SCLandmark2D_Private.h */,
+			);
+			path = Landmark;
+			sourceTree = "<group>";
+		};
+		F31C4DB92A79E72B00EB3F1F /* PointCloud */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4DBA2A79E72B00EB3F1F /* SCPointCloud+SceneKit.mm */,
+				F31C4DBB2A79E72B00EB3F1F /* SCPointCloud.h */,
+				F31C4DBC2A79E72B00EB3F1F /* SCPointCloud+Metal.h */,
+				F31C4DBD2A79E72B00EB3F1F /* SCPointCloud.mm */,
+				F31C4DBE2A79E72B00EB3F1F /* SCPointCloud+SceneKit.h */,
+				F31C4DBF2A79E72B00EB3F1F /* SCPointCloud+FileIO.h */,
+				F31C4DC02A79E72B00EB3F1F /* SCPointCloud+Geometry.h */,
+				F31C4DC12A79E72B00EB3F1F /* SCPointCloud_Private.h */,
+				F31C4DC22A79E72B00EB3F1F /* SCPointCloud+Metal.m */,
+				F31C4DC32A79E72B00EB3F1F /* SCPointCloud+Geometry.mm */,
+				F31C4DC42A79E72B00EB3F1F /* SCPointCloud+FileIO.mm */,
+			);
+			path = PointCloud;
+			sourceTree = "<group>";
+		};
+		F31C4E022A79EE0400EB3F1F /* DataStructures */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E032A79EE0400EB3F1F /* SparseSurfelLandmarksIndex.hpp */,
+				F31C4E042A79EE0400EB3F1F /* RawFrame.hpp */,
+				F31C4E052A79EE0400EB3F1F /* PBFConfiguration.cpp */,
+				F31C4E062A79EE0400EB3F1F /* Surfel.hpp */,
+				F31C4E072A79EE0400EB3F1F /* ProcessedFrame.hpp */,
+				F31C4E082A79EE0400EB3F1F /* PBFAssimilatedFrameMetadata.hpp */,
+				F31C4E092A79EE0400EB3F1F /* PBFConfiguration.hpp */,
+				F31C4E0A2A79EE0400EB3F1F /* SparseSurfelLandmarksIndex.cpp */,
+				F31C4E0B2A79EE0400EB3F1F /* ScreenSpaceLandmark.hpp */,
+			);
+			path = DataStructures;
+			sourceTree = "<group>";
+		};
+		F31C4E0C2A79EE0400EB3F1F /* EarLandmarking */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E0D2A79EE0400EB3F1F /* SCEarLandmarking.mlmodel */,
+				F31C4E0E2A79EE0400EB3F1F /* EarLandmarkingAnalysis.m */,
+				F31C4E0F2A79EE0400EB3F1F /* EarLandmarkingAnalysis.h */,
+			);
+			path = EarLandmarking;
+			sourceTree = "<group>";
+		};
+		F31C4E102A79EE0400EB3F1F /* MetalDepthProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E112A79EE0400EB3F1F /* RenderPositions.hpp */,
+				F31C4E122A79EE0400EB3F1F /* ApplyLensCalibration.metal */,
+				F31C4E132A79EE0400EB3F1F /* MetalDepthProcessorData.hpp */,
+				F31C4E142A79EE0400EB3F1F /* UvToColor.metal */,
+				F31C4E152A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.mm */,
+				F31C4E162A79EE0400EB3F1F /* RenderUvs.metal */,
+				F31C4E172A79EE0400EB3F1F /* RenderPositions.metal */,
+				F31C4E182A79EE0400EB3F1F /* ComputePointsKernel.mm */,
+				F31C4E192A79EE0400EB3F1F /* MetalComputeEngine.h */,
+				F31C4E1A2A79EE0400EB3F1F /* RenderUvs.hpp */,
+				F31C4E1B2A79EE0400EB3F1F /* RenderUvs.mm */,
+				F31C4E1C2A79EE0400EB3F1F /* SmoothDepthKernel.h */,
+				F31C4E1D2A79EE0400EB3F1F /* MetalDepthProcessorData.mm */,
+				F31C4E1E2A79EE0400EB3F1F /* ClearPassNan.mm */,
+				F31C4E1F2A79EE0400EB3F1F /* MetalSurfelIndexMap.mm */,
+				F31C4E202A79EE0400EB3F1F /* ComputeNormalsKernel.mm */,
+				F31C4E212A79EE0400EB3F1F /* MetalSurfelIndexMap.hpp */,
+				F31C4E222A79EE0400EB3F1F /* ComputeWeightsKernel.h */,
+				F31C4E232A79EE0400EB3F1F /* MetalDepthProcessor.hpp */,
+				F31C4E242A79EE0400EB3F1F /* ComputePointsKernel.h */,
+				F31C4E252A79EE0400EB3F1F /* SmoothDepthKernel.mm */,
+				F31C4E262A79EE0400EB3F1F /* RenderPositions.mm */,
+				F31C4E272A79EE0400EB3F1F /* ComputeNormalsKernel.metal */,
+				F31C4E282A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.metal */,
+				F31C4E292A79EE0400EB3F1F /* ComputeWeightsKernel.mm */,
+				F31C4E2A2A79EE0400EB3F1F /* ComputeNormalsKernel.h */,
+				F31C4E2B2A79EE0400EB3F1F /* ComputePointsKernel.metal */,
+				F31C4E2C2A79EE0400EB3F1F /* SurfelIndexMap.metal */,
+				F31C4E2D2A79EE0400EB3F1F /* InitializeDepthConfidenceKernel.h */,
+				F31C4E2E2A79EE0400EB3F1F /* ClearPassNan.hpp */,
+				F31C4E2F2A79EE0400EB3F1F /* SmoothDepthKernel.metal */,
+				F31C4E302A79EE0400EB3F1F /* ComputeWeightsKernel.metal */,
+				F31C4E312A79EE0400EB3F1F /* MetalDepthProcessor.mm */,
+				F31C4E322A79EE0400EB3F1F /* MetalComputeEngine.mm */,
+			);
+			path = MetalDepthProcessor;
+			sourceTree = "<group>";
+		};
+		F31C4E332A79EE0400EB3F1F /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E342A79EE0400EB3F1F /* MeshUvMap.cpp */,
+				F31C4E352A79EE0400EB3F1F /* SurfelIndexMap.hpp */,
+				F31C4E362A79EE0400EB3F1F /* DepthProcessor.hpp */,
+				F31C4E372A79EE0400EB3F1F /* SurfelFusion.cpp */,
+				F31C4E382A79EE0400EB3F1F /* GravityEstimator.hpp */,
+				F31C4E392A79EE0400EB3F1F /* OutlierDetector.cpp */,
+				F31C4E3A2A79EE0400EB3F1F /* OfflineSurfelLandmarking.cpp */,
+				F31C4E3B2A79EE0400EB3F1F /* PBFModel.cpp */,
+				F31C4E3C2A79EE0400EB3F1F /* ICP.cpp */,
+				F31C4E3D2A79EE0500EB3F1F /* maxrects.cpp */,
+				F31C4E3E2A79EE0500EB3F1F /* OutlierDetector.hpp */,
+				F31C4E3F2A79EE0500EB3F1F /* OfflineSurfelLandmarking.hpp */,
+				F31C4E402A79EE0500EB3F1F /* PBFModel.hpp */,
+				F31C4E412A79EE0500EB3F1F /* ICP.hpp */,
+				F31C4E422A79EE0500EB3F1F /* maxrects.hpp */,
+				F31C4E432A79EE0500EB3F1F /* PBFDefinitions.h */,
+				F31C4E442A79EE0500EB3F1F /* MeshUvMap.hpp */,
+				F31C4E452A79EE0500EB3F1F /* KDTreeAdaptor.hpp */,
+				F31C4E462A79EE0500EB3F1F /* SurfelFusion.hpp */,
+				F31C4E472A79EE0500EB3F1F /* GravityEstimator.cpp */,
+				F31C4E482A79EE0500EB3F1F /* MetalTextureProjection.mm */,
+				F31C4E492A79EE0500EB3F1F /* MetalTextureProjection.hpp */,
+			);
+			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		F31C4E4A2A79EE0500EB3F1F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E4B2A79EE0500EB3F1F /* ThreadPool.hpp */,
+				F31C4E4C2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.mm */,
+				F31C4E4D2A79EE0500EB3F1F /* SceneKitHelpers */,
+				F31C4E5E2A79EE0500EB3F1F /* EigenHelpers.hpp */,
+				F31C4E5F2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.hpp */,
+				F31C4E602A79EE0500EB3F1F /* DebugLog.h */,
+				F31C4E612A79EE0500EB3F1F /* MathHelpers.h */,
+				F31C4E622A79EE0500EB3F1F /* crc32.cpp */,
+				F31C4E632A79EE0500EB3F1F /* GeometryHelpers.cpp */,
+				F31C4E642A79EE0500EB3F1F /* crc32.hpp */,
+				F31C4E652A79EE0500EB3F1F /* FastRand.hpp */,
+				F31C4E662A79EE0500EB3F1F /* GeometryHelpers.hpp */,
+				F31C4E672A79EE0500EB3F1F /* MathHelpers.m */,
+				F31C4E682A79EE0500EB3F1F /* ThreadPool.cpp */,
+				F31C4E692A79EE0500EB3F1F /* EigenHelpers.cpp */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F31C4E4D2A79EE0500EB3F1F /* SceneKitHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E4E2A79EE0500EB3F1F /* SceneKit+BoundingBox3.h */,
+				F31C4E4F2A79EE0500EB3F1F /* SceneKit+Plane.h */,
+				F31C4E502A79EE0500EB3F1F /* SceneKit+Lines.mm */,
+				F31C4E512A79EE0500EB3F1F /* SceneKit+Polyline.h */,
+				F31C4E522A79EE0500EB3F1F /* SceneKit+Plane.mm */,
+				F31C4E532A79EE0500EB3F1F /* SceneKit+Lines.h */,
+				F31C4E542A79EE0500EB3F1F /* SceneKit+Geometry.mm */,
+				F31C4E552A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.h */,
+				F31C4E562A79EE0500EB3F1F /* SceneKit+Mat3x3.mm */,
+				F31C4E572A79EE0500EB3F1F /* SceneKit+Polyline.mm */,
+				F31C4E582A79EE0500EB3F1F /* SceneKit+Mat3x3.h */,
+				F31C4E592A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.mm */,
+				F31C4E5A2A79EE0500EB3F1F /* SceneKit+Mat3x4.mm */,
+				F31C4E5B2A79EE0500EB3F1F /* SceneKit+Geometry.h */,
+				F31C4E5C2A79EE0500EB3F1F /* SceneKit+BoundingBox3.mm */,
+				F31C4E5D2A79EE0500EB3F1F /* SceneKit+Mat3x4.h */,
+			);
+			path = SceneKitHelpers;
+			sourceTree = "<group>";
+		};
+		F31C4E6A2A79EE0500EB3F1F /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				F31C4E6B2A79EE0500EB3F1F /* PointCloudIO_OBJ.cpp */,
+				F31C4E6C2A79EE0500EB3F1F /* PointCloudIO_PLY.mm */,
+				F31C4E6D2A79EE0500EB3F1F /* PointCloudIO.mm */,
+				F31C4E6E2A79EE0500EB3F1F /* PointCloudIO_JSON.cpp */,
+				F31C4E6F2A79EE0500EB3F1F /* WriteUSDZCompatibleZip.hpp */,
+				F31C4E702A79EE0500EB3F1F /* PointCloudIO.hpp */,
+				F31C4E712A79EE0500EB3F1F /* WriteUSDZCompatibleZip.cpp */,
+				F31C4E722A79EE0500EB3F1F /* PointCloudIO_USDZ.cpp */,
+			);
+			path = IO;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F31C4D812A79E11F00EB3F1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31C4DED2A79E72B00EB3F1F /* CVPixelBufferHelpers.h in Headers */,
+				F31C4E7F2A79EE0500EB3F1F /* RenderPositions.hpp in Headers */,
+				F31C4EA52A79EE0500EB3F1F /* GravityEstimator.hpp in Headers */,
+				F31C4DF32A79E72B00EB3F1F /* SCPointCloud+FileIO.h in Headers */,
+				F31C4DD92A79E72B00EB3F1F /* SCLandmarking2D.h in Headers */,
+				F31C4E812A79EE0500EB3F1F /* MetalDepthProcessorData.hpp in Headers */,
+				F31C4EAC2A79EE0500EB3F1F /* OfflineSurfelLandmarking.hpp in Headers */,
+				F31C4EB22A79EE0500EB3F1F /* KDTreeAdaptor.hpp in Headers */,
+				F31C4D8A2A79E11F00EB3F1F /* StandardCyborgFusion.h in Headers */,
+				F31C4DF22A79E72B00EB3F1F /* SCPointCloud+SceneKit.h in Headers */,
+				F31C4DF52A79E72B00EB3F1F /* SCPointCloud_Private.h in Headers */,
+				F31C4E9C2A79EE0500EB3F1F /* ClearPassNan.hpp in Headers */,
+				F31C4E772A79EE0500EB3F1F /* ProcessedFrame.hpp in Headers */,
+				F31C4DEC2A79E72B00EB3F1F /* SCReconstructionManager.h in Headers */,
+				F31C4EA32A79EE0500EB3F1F /* DepthProcessor.hpp in Headers */,
+				F31C4EBA2A79EE0500EB3F1F /* SceneKit+Plane.h in Headers */,
+				F31C4DD22A79E72B00EB3F1F /* SCMesh_Private.h in Headers */,
+				F31C4E732A79EE0500EB3F1F /* SparseSurfelLandmarksIndex.hpp in Headers */,
+				F31C4EBE2A79EE0500EB3F1F /* SceneKit+Lines.h in Headers */,
+				F31C4EB62A79EE0500EB3F1F /* MetalTextureProjection.hpp in Headers */,
+				F31C4E762A79EE0500EB3F1F /* Surfel.hpp in Headers */,
+				F31C4EB72A79EE0500EB3F1F /* ThreadPool.hpp in Headers */,
+				F31C4E8F2A79EE0500EB3F1F /* MetalSurfelIndexMap.hpp in Headers */,
+				F31C4E7B2A79EE0500EB3F1F /* ScreenSpaceLandmark.hpp in Headers */,
+				F31C4ED12A79EE0500EB3F1F /* GeometryHelpers.hpp in Headers */,
+				F31C4DEB2A79E72B00EB3F1F /* SCReconstructionManager_Private.h in Headers */,
+				F31C4DFB2A79E72B00EB3F1F /* SCReconstructionManagerParameters_Private.h in Headers */,
+				F31C4ECC2A79EE0500EB3F1F /* MathHelpers.h in Headers */,
+				F31C4DDB2A79E72B00EB3F1F /* SCLandmark2D.h in Headers */,
+				F31C4DE22A79E72B00EB3F1F /* SCScene.h in Headers */,
+				F31C4E9B2A79EE0500EB3F1F /* InitializeDepthConfidenceKernel.h in Headers */,
+				F31C4DE62A79E72B00EB3F1F /* SCReconstructionManagerParameters.h in Headers */,
+				F31C4EAD2A79EE0500EB3F1F /* PBFModel.hpp in Headers */,
+				F31C4DDE2A79E72B00EB3F1F /* SCAssimilatedFrameMetadata_Private.h in Headers */,
+				F31C4EA22A79EE0500EB3F1F /* SurfelIndexMap.hpp in Headers */,
+				F31C4DE32A79E72B00EB3F1F /* SCEarTracking.h in Headers */,
+				F31C4EC82A79EE0500EB3F1F /* SceneKit+Mat3x4.h in Headers */,
+				F31C4EB92A79EE0500EB3F1F /* SceneKit+BoundingBox3.h in Headers */,
+				F31C4E982A79EE0500EB3F1F /* ComputeNormalsKernel.h in Headers */,
+				F31C4EB02A79EE0500EB3F1F /* PBFDefinitions.h in Headers */,
+				F31C4E922A79EE0500EB3F1F /* ComputePointsKernel.h in Headers */,
+				F31C4DEF2A79E72B00EB3F1F /* SCPointCloud.h in Headers */,
+				F31C4EBC2A79EE0500EB3F1F /* SceneKit+Polyline.h in Headers */,
+				F31C4EDA2A79EE0500EB3F1F /* PointCloudIO.hpp in Headers */,
+				F31C4DDA2A79E72B00EB3F1F /* SCLandmark3D.h in Headers */,
+				F31C4DCD2A79E72B00EB3F1F /* SCMesh.h in Headers */,
+				F31C4DFA2A79E72B00EB3F1F /* PBFFinalStatistics.h in Headers */,
+				F31C4EC02A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.h in Headers */,
+				F31C4E8A2A79EE0500EB3F1F /* SmoothDepthKernel.h in Headers */,
+				F31C4DD32A79E72B00EB3F1F /* SCMesh+FileIO.h in Headers */,
+				F31C4DE92A79E72B00EB3F1F /* SCOfflineReconstructionManager.h in Headers */,
+				F31C4E792A79EE0500EB3F1F /* PBFConfiguration.hpp in Headers */,
+				F31C4ECB2A79EE0500EB3F1F /* DebugLog.h in Headers */,
+				F31C4E872A79EE0500EB3F1F /* MetalComputeEngine.h in Headers */,
+				F31C4ED92A79EE0500EB3F1F /* WriteUSDZCompatibleZip.hpp in Headers */,
+				F31C4DEA2A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.h in Headers */,
+				F31C4EC32A79EE0500EB3F1F /* SceneKit+Mat3x3.h in Headers */,
+				F31C4EAE2A79EE0500EB3F1F /* ICP.hpp in Headers */,
+				F31C4DF42A79E72B00EB3F1F /* SCPointCloud+Geometry.h in Headers */,
+				F31C4E7E2A79EE0500EB3F1F /* EarLandmarkingAnalysis.h in Headers */,
+				F31C4DD52A79E72B00EB3F1F /* SCMeshingOperation.h in Headers */,
+				F31C4ECA2A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.hpp in Headers */,
+				F31C4DF02A79E72B00EB3F1F /* SCPointCloud+Metal.h in Headers */,
+				F31C4DDC2A79E72B00EB3F1F /* SCLandmark2D_Private.h in Headers */,
+				F31C4E742A79EE0500EB3F1F /* RawFrame.hpp in Headers */,
+				F31C4E912A79EE0500EB3F1F /* MetalDepthProcessor.hpp in Headers */,
+				F31C4DCB2A79E72B00EB3F1F /* SCMesh+Geometry.h in Headers */,
+				F31C4E902A79EE0500EB3F1F /* ComputeWeightsKernel.h in Headers */,
+				F31C4DCC2A79E72B00EB3F1F /* SCMeshTexturing.h in Headers */,
+				F31C4ECF2A79EE0500EB3F1F /* crc32.hpp in Headers */,
+				F31C4EC62A79EE0500EB3F1F /* SceneKit+Geometry.h in Headers */,
+				F31C4EB12A79EE0500EB3F1F /* MeshUvMap.hpp in Headers */,
+				F31C4DE82A79E72B00EB3F1F /* SCFootTracking.h in Headers */,
+				F31C4E782A79EE0500EB3F1F /* PBFAssimilatedFrameMetadata.hpp in Headers */,
+				F31C4EAB2A79EE0500EB3F1F /* OutlierDetector.hpp in Headers */,
+				F31C4E882A79EE0500EB3F1F /* RenderUvs.hpp in Headers */,
+				F31C4EC92A79EE0500EB3F1F /* EigenHelpers.hpp in Headers */,
+				F31C4DDF2A79E72B00EB3F1F /* SCOfflineReconstructionManager_Private.h in Headers */,
+				F31C4ED02A79EE0500EB3F1F /* FastRand.hpp in Headers */,
+				F31C4DD42A79E72B00EB3F1F /* SCMesh+SceneKit.h in Headers */,
+				F31C4EAF2A79EE0500EB3F1F /* maxrects.hpp in Headers */,
+				F31C4EB32A79EE0500EB3F1F /* SurfelFusion.hpp in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F31C4D852A79E11F00EB3F1F /* StandardCyborgFusion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F31C4D8D2A79E11F00EB3F1F /* Build configuration list for PBXNativeTarget "StandardCyborgFusion" */;
+			buildPhases = (
+				0F298B437ECD39B04C5C614A /* [CP] Check Pods Manifest.lock */,
+				F31C4D812A79E11F00EB3F1F /* Headers */,
+				F31C4D822A79E11F00EB3F1F /* Sources */,
+				F31C4D832A79E11F00EB3F1F /* Frameworks */,
+				F31C4D842A79E11F00EB3F1F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StandardCyborgFusion;
+			productName = StandardCyborgFusion;
+			productReference = F31C4D862A79E11F00EB3F1F /* StandardCyborgFusion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F31C4D7D2A79E11F00EB3F1F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F31C4D852A79E11F00EB3F1F = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = F31C4D802A79E11F00EB3F1F /* Build configuration list for PBXProject "StandardCyborgFusion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F31C4D7C2A79E11F00EB3F1F;
+			productRefGroup = F31C4D872A79E11F00EB3F1F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F31C4D852A79E11F00EB3F1F /* StandardCyborgFusion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F31C4D842A79E11F00EB3F1F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31C4EDE2A7A1C5F00EB3F1F /* README.md in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F298B437ECD39B04C5C614A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StandardCyborgFusion-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F31C4D822A79E11F00EB3F1F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F31C4E932A79EE0500EB3F1F /* SmoothDepthKernel.mm in Sources */,
+				F31C4EC12A79EE0500EB3F1F /* SceneKit+Mat3x3.mm in Sources */,
+				F31C4DD02A79E72B00EB3F1F /* SCMesh+SceneKit.m in Sources */,
+				F31C4EA82A79EE0500EB3F1F /* PBFModel.cpp in Sources */,
+				F31C4EC42A79EE0500EB3F1F /* SceneKit+StandardCyborgNode.mm in Sources */,
+				F31C4EC52A79EE0500EB3F1F /* SceneKit+Mat3x4.mm in Sources */,
+				F31C4DCF2A79E72B00EB3F1F /* SCMesh.mm in Sources */,
+				F31C4DC82A79E72B00EB3F1F /* SCFootTracking.m in Sources */,
+				F31C4EBB2A79EE0500EB3F1F /* SceneKit+Lines.mm in Sources */,
+				F31C4DDD2A79E72B00EB3F1F /* SCAssimilatedFrameMetadata.m in Sources */,
+				F31C4ED22A79EE0500EB3F1F /* MathHelpers.m in Sources */,
+				F31C4E8C2A79EE0500EB3F1F /* ClearPassNan.mm in Sources */,
+				F31C4ED72A79EE0500EB3F1F /* PointCloudIO.mm in Sources */,
+				F31C4E752A79EE0500EB3F1F /* PBFConfiguration.cpp in Sources */,
+				F31C4E822A79EE0500EB3F1F /* UvToColor.metal in Sources */,
+				F31C4EC72A79EE0500EB3F1F /* SceneKit+BoundingBox3.mm in Sources */,
+				F31C4E972A79EE0500EB3F1F /* ComputeWeightsKernel.mm in Sources */,
+				F31C4DF12A79E72B00EB3F1F /* SCPointCloud.mm in Sources */,
+				F31C4DF92A79E72B00EB3F1F /* SCReconstructionManager.mm in Sources */,
+				F31C4DEE2A79E72B00EB3F1F /* SCPointCloud+SceneKit.mm in Sources */,
+				F31C4E9A2A79EE0500EB3F1F /* SurfelIndexMap.metal in Sources */,
+				F31C4DF72A79E72B00EB3F1F /* SCPointCloud+Geometry.mm in Sources */,
+				F31C4EB52A79EE0500EB3F1F /* MetalTextureProjection.mm in Sources */,
+				F31C4EC22A79EE0500EB3F1F /* SceneKit+Polyline.mm in Sources */,
+				F31C4DD82A79E72B00EB3F1F /* SCLandmark2D.m in Sources */,
+				F31C4DE52A79E72B00EB3F1F /* SCScene.mm in Sources */,
+				F31C4DE02A79E72B00EB3F1F /* CVPixelBufferHelpers.m in Sources */,
+				F31C4E832A79EE0500EB3F1F /* InitializeDepthConfidenceKernel.mm in Sources */,
+				F31C4E852A79EE0500EB3F1F /* RenderPositions.metal in Sources */,
+				F31C4EA02A79EE0500EB3F1F /* MetalComputeEngine.mm in Sources */,
+				F31C4E962A79EE0500EB3F1F /* InitializeDepthConfidenceKernel.metal in Sources */,
+				F31C4E992A79EE0500EB3F1F /* ComputePointsKernel.metal in Sources */,
+				F31C4ED42A79EE0500EB3F1F /* EigenHelpers.cpp in Sources */,
+				F31C4E7C2A79EE0500EB3F1F /* SCEarLandmarking.mlmodel in Sources */,
+				F31C4E9F2A79EE0500EB3F1F /* MetalDepthProcessor.mm in Sources */,
+				F31C4DE42A79E72B00EB3F1F /* SCEarTrackingModel.mlmodel in Sources */,
+				F31C4DD62A79E72B00EB3F1F /* SCEarTracking.m in Sources */,
+				F31C4E9E2A79EE0500EB3F1F /* ComputeWeightsKernel.metal in Sources */,
+				F31C4E8B2A79EE0500EB3F1F /* MetalDepthProcessorData.mm in Sources */,
+				F31C4DD12A79E72B00EB3F1F /* SCMesh+Geometry.mm in Sources */,
+				F31C4EA72A79EE0500EB3F1F /* OfflineSurfelLandmarking.cpp in Sources */,
+				F31C4ED32A79EE0500EB3F1F /* ThreadPool.cpp in Sources */,
+				F31C4E9D2A79EE0500EB3F1F /* SmoothDepthKernel.metal in Sources */,
+				F31C4DF82A79E72B00EB3F1F /* SCPointCloud+FileIO.mm in Sources */,
+				F31C4DCE2A79E72B00EB3F1F /* SCMeshingOperation.m in Sources */,
+				F31C4DCA2A79E72B00EB3F1F /* SCMesh+FileIO.mm in Sources */,
+				F31C4EA12A79EE0500EB3F1F /* MeshUvMap.cpp in Sources */,
+				F31C4ED82A79EE0500EB3F1F /* PointCloudIO_JSON.cpp in Sources */,
+				F31C4DC92A79E72B00EB3F1F /* SCMeshTexturing.mm in Sources */,
+				F31C4E802A79EE0500EB3F1F /* ApplyLensCalibration.metal in Sources */,
+				F31C4ED52A79EE0500EB3F1F /* PointCloudIO_OBJ.cpp in Sources */,
+				F31C4E7A2A79EE0500EB3F1F /* SparseSurfelLandmarksIndex.cpp in Sources */,
+				F31C4E862A79EE0500EB3F1F /* ComputePointsKernel.mm in Sources */,
+				F31C4DE72A79E72B00EB3F1F /* SCOfflineReconstructionManager.mm in Sources */,
+				F31C4EDC2A79EE0500EB3F1F /* PointCloudIO_USDZ.cpp in Sources */,
+				F31C4DD72A79E72B00EB3F1F /* SCLandmark3D.m in Sources */,
+				F31C4EDB2A79EE0500EB3F1F /* WriteUSDZCompatibleZip.cpp in Sources */,
+				F31C4E842A79EE0500EB3F1F /* RenderUvs.metal in Sources */,
+				F31C4E892A79EE0500EB3F1F /* RenderUvs.mm in Sources */,
+				F31C4ECE2A79EE0500EB3F1F /* GeometryHelpers.cpp in Sources */,
+				F31C4E8D2A79EE0500EB3F1F /* MetalSurfelIndexMap.mm in Sources */,
+				F31C4DE12A79E72B00EB3F1F /* SCFootTrackingModel.mlmodel in Sources */,
+				F31C4EA42A79EE0500EB3F1F /* SurfelFusion.cpp in Sources */,
+				F31C4DF62A79E72B00EB3F1F /* SCPointCloud+Metal.m in Sources */,
+				F31C4EA92A79EE0500EB3F1F /* ICP.cpp in Sources */,
+				F31C4EBF2A79EE0500EB3F1F /* SceneKit+Geometry.mm in Sources */,
+				F31C4E942A79EE0500EB3F1F /* RenderPositions.mm in Sources */,
+				F31C4E952A79EE0500EB3F1F /* ComputeNormalsKernel.metal in Sources */,
+				F31C4ECD2A79EE0500EB3F1F /* crc32.cpp in Sources */,
+				F31C4EB42A79EE0500EB3F1F /* GravityEstimator.cpp in Sources */,
+				F31C4EBD2A79EE0500EB3F1F /* SceneKit+Plane.mm in Sources */,
+				F31C4ED62A79EE0500EB3F1F /* PointCloudIO_PLY.mm in Sources */,
+				F31C4E8E2A79EE0500EB3F1F /* ComputeNormalsKernel.mm in Sources */,
+				F31C4E7D2A79EE0500EB3F1F /* EarLandmarkingAnalysis.m in Sources */,
+				F31C4EB82A79EE0500EB3F1F /* PerspectiveCamera+AVFoundation.mm in Sources */,
+				F31C4EAA2A79EE0500EB3F1F /* maxrects.cpp in Sources */,
+				F31C4EA62A79EE0500EB3F1F /* OutlierDetector.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F31C4D8B2A79E11F00EB3F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F31C4D8C2A79E11F00EB3F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F31C4D8E2A79E11F00EB3F1F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA9184D2B7F01A4769B924E0 /* Pods-StandardCyborgFusion.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9MA48HTBPP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PoissonRecon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/scsdk\"",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PoissonRecon/PoissonRecon.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive/SSZipArchive.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/scsdk/scsdk.framework/Headers\"",
+					"$(inherited)",
+					"\"$(PODS_ROOT)/EigenCPPCocoa\"",
+					"$(inherited)",
+					"\"$(PODS_ROOT)/PoissonRecon\"",
+					"\"$(PODS_ROOT)/PoissonRecon/PoissonRecon-Xcode\"",
+					"$(inherited)",
+					"\"$(PODS_ROOT)/EigenCPPCocoa\"",
+					"$(PODS_ROOT)/../deps/happly/",
+					"$(PODS_ROOT)/../deps/json/include/",
+					"$(PODS_ROOT)/../deps/tinygltf/",
+					"$(PODS_ROOT)/../deps/stb/",
+					"$(PODS_ROOT)/../deps/SparseICP/",
+					"$(PODS_ROOT)/../deps/nanoflann/include/",
+					"$(PODS_ROOT)/../deps/libigl/include/",
+					"$(BUILT_PRODUCTS_DIR)",
+					"StandardCyborgFusion/**",
+				);
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = cusmos.StandardCyborgFusion;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F31C4D8F2A79E11F00EB3F1F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6C9C7A099C3E8A8AD9730A /* Pods-StandardCyborgFusion.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 9MA48HTBPP;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PoissonRecon\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/scsdk\"",
+					"$(BUILT_PRODUCTS_DIR)",
+				);
+				GENERATE_INFOPLIST_FILE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PoissonRecon/PoissonRecon.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SSZipArchive/SSZipArchive.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/scsdk/scsdk.framework/Headers\"",
+					"$(inherited)",
+					"\"$(PODS_ROOT)/EigenCPPCocoa\"",
+					"$(inherited)",
+					"\"$(PODS_ROOT)/PoissonRecon\"",
+					"\"$(PODS_ROOT)/PoissonRecon/PoissonRecon-Xcode\"",
+					"$(inherited)",
+					"\"$(PODS_ROOT)/EigenCPPCocoa\"",
+					"$(PODS_ROOT)/../deps/happly/",
+					"$(PODS_ROOT)/../deps/json/include/",
+					"$(PODS_ROOT)/../deps/tinygltf/",
+					"$(PODS_ROOT)/../deps/stb/",
+					"$(PODS_ROOT)/../deps/SparseICP/",
+					"$(PODS_ROOT)/../deps/nanoflann/include/",
+					"$(PODS_ROOT)/../deps/libigl/include/",
+					"$(BUILT_PRODUCTS_DIR)",
+					"StandardCyborgFusion/**",
+				);
+				INFOPLIST_KEY_NSPrincipalClass = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu11 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = cusmos.StandardCyborgFusion;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F31C4D802A79E11F00EB3F1F /* Build configuration list for PBXProject "StandardCyborgFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31C4D8B2A79E11F00EB3F1F /* Debug */,
+				F31C4D8C2A79E11F00EB3F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F31C4D8D2A79E11F00EB3F1F /* Build configuration list for PBXNativeTarget "StandardCyborgFusion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F31C4D8E2A79E11F00EB3F1F /* Debug */,
+				F31C4D8F2A79E11F00EB3F1F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F31C4D7D2A79E11F00EB3F1F /* Project object */;
+}
