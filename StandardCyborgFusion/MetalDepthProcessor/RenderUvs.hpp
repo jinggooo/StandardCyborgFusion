@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "MetalVisualizationEngine.hpp"
+//#import "MetalVisualizationEngine.hpp"
+#import <Metal/Metal.h>
 
 #include <standard_cyborg/sc3d/Geometry.hpp>
 #include <standard_cyborg/sc3d/PerspectiveCamera.hpp>
@@ -18,8 +19,8 @@
 
 - (void)encodeCommandsWithDevice:(id<MTLDevice>)device
                    commandBuffer:(id<MTLCommandBuffer>)commandBuffer
-                          camera:(sc3d::PerspectiveCamera)camera
-                    triangleMesh:(const sc3d::Geometry&)triangleMesh
+                    camera:(standard_cyborg::sc3d::PerspectiveCamera)camera
+                    triangleMesh:(const standard_cyborg::sc3d::Geometry&)triangleMesh
                       viewMatrix:(matrix_float4x4)viewMatrix
                 projectionMatrix:(matrix_float4x4)projectionMatrix
                      intoTexture:(id<MTLTexture>)texture

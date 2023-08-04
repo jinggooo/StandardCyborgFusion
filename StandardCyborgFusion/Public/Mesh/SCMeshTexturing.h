@@ -8,6 +8,7 @@
 #import <CoreVideo/CoreVideo.h>
 #import <Foundation/Foundation.h>
 #import <simd/simd.h>
+#import <SCMeshingOperation.h>
 
 #import <StandardCyborgFusion/SCMesh.h>
 

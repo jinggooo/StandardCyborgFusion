@@ -171,6 +171,22 @@
 		F31C4F0E2A7B392700EB3F1F /* libPoissonRecon.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0B2A7B392400EB3F1F /* libPoissonRecon.a */; };
 		F31C4F0F2A7B392700EB3F1F /* libscsdk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0C2A7B392400EB3F1F /* libscsdk.a */; };
 		F31C4F102A7B392700EB3F1F /* libSSZipArchive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F0D2A7B392400EB3F1F /* libSSZipArchive.a */; };
+		F31C4F8A2A7B9F4400EB3F1F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F892A7B9F4400EB3F1F /* Accelerate.framework */; };
+		F31C4F8C2A7B9F5400EB3F1F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F8B2A7B9F5400EB3F1F /* AVFoundation.framework */; };
+		F31C4F932A7B9F8C00EB3F1F /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F8D2A7B9F8B00EB3F1F /* CoreServices.framework */; };
+		F31C4F942A7B9F8C00EB3F1F /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F8E2A7B9F8B00EB3F1F /* CoreImage.framework */; };
+		F31C4F952A7B9F8C00EB3F1F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F8F2A7B9F8B00EB3F1F /* CoreVideo.framework */; };
+		F31C4F962A7B9F8C00EB3F1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F902A7B9F8B00EB3F1F /* CoreGraphics.framework */; };
+		F31C4F972A7B9F8D00EB3F1F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F912A7B9F8B00EB3F1F /* CoreMedia.framework */; };
+		F31C4F982A7B9F8D00EB3F1F /* CoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F922A7B9F8C00EB3F1F /* CoreML.framework */; };
+		F31C4F9A2A7B9FB500EB3F1F /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F992A7B9FB500EB3F1F /* ImageIO.framework */; };
+		F31C4F9C2A7B9FBC00EB3F1F /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F9B2A7B9FBC00EB3F1F /* IOSurface.framework */; };
+		F31C4F9F2A7B9FC700EB3F1F /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F9D2A7B9FC700EB3F1F /* Metal.framework */; };
+		F31C4FA02A7B9FC800EB3F1F /* MetalPerformanceShaders.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4F9E2A7B9FC700EB3F1F /* MetalPerformanceShaders.framework */; };
+		F31C4FA22A7B9FD000EB3F1F /* ModelIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4FA12A7B9FD000EB3F1F /* ModelIO.framework */; };
+		F31C4FA42A7B9FD700EB3F1F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4FA32A7B9FD700EB3F1F /* QuartzCore.framework */; };
+		F31C4FA62A7B9FDD00EB3F1F /* Vision.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4FA52A7B9FDD00EB3F1F /* Vision.framework */; };
+		F31C4FA82A7B9FE500EB3F1F /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31C4FA72A7B9FE500EB3F1F /* SceneKit.framework */; };
 		F96DEBD6D00DD1E3D466966B /* libPods-StandardCyborgFusion.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B05E7A1873C05D0F8A2356DA /* libPods-StandardCyborgFusion.a */; };
 /* End PBXBuildFile section */
 
@@ -343,6 +359,22 @@
 		F31C4F0B2A7B392400EB3F1F /* libPoissonRecon.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libPoissonRecon.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31C4F0C2A7B392400EB3F1F /* libscsdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libscsdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F31C4F0D2A7B392400EB3F1F /* libSSZipArchive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSSZipArchive.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F31C4F892A7B9F4400EB3F1F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F8B2A7B9F5400EB3F1F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F8D2A7B9F8B00EB3F1F /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F8E2A7B9F8B00EB3F1F /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreImage.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F8F2A7B9F8B00EB3F1F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreVideo.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F902A7B9F8B00EB3F1F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F912A7B9F8B00EB3F1F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F922A7B9F8C00EB3F1F /* CoreML.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreML.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/CoreML.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F992A7B9FB500EB3F1F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F9B2A7B9FBC00EB3F1F /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/IOSurface.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F9D2A7B9FC700EB3F1F /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Metal.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4F9E2A7B9FC700EB3F1F /* MetalPerformanceShaders.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalPerformanceShaders.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/MetalPerformanceShaders.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4FA12A7B9FD000EB3F1F /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/ModelIO.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4FA32A7B9FD700EB3F1F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4FA52A7B9FDD00EB3F1F /* Vision.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Vision.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/Vision.framework; sourceTree = DEVELOPER_DIR; };
+		F31C4FA72A7B9FE500EB3F1F /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.3.sdk/System/iOSSupport/System/Library/Frameworks/SceneKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -350,11 +382,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F31C4F972A7B9F8D00EB3F1F /* CoreMedia.framework in Frameworks */,
 				F96DEBD6D00DD1E3D466966B /* libPods-StandardCyborgFusion.a in Frameworks */,
+				F31C4FA02A7B9FC800EB3F1F /* MetalPerformanceShaders.framework in Frameworks */,
+				F31C4F9A2A7B9FB500EB3F1F /* ImageIO.framework in Frameworks */,
 				F31C4F0F2A7B392700EB3F1F /* libscsdk.a in Frameworks */,
+				F31C4F942A7B9F8C00EB3F1F /* CoreImage.framework in Frameworks */,
+				F31C4FA22A7B9FD000EB3F1F /* ModelIO.framework in Frameworks */,
 				F31C4F102A7B392700EB3F1F /* libSSZipArchive.a in Frameworks */,
+				F31C4FA62A7B9FDD00EB3F1F /* Vision.framework in Frameworks */,
+				F31C4F9C2A7B9FBC00EB3F1F /* IOSurface.framework in Frameworks */,
+				F31C4FA82A7B9FE500EB3F1F /* SceneKit.framework in Frameworks */,
+				F31C4F8A2A7B9F4400EB3F1F /* Accelerate.framework in Frameworks */,
 				F31C4F0E2A7B392700EB3F1F /* libPoissonRecon.a in Frameworks */,
+				F31C4F8C2A7B9F5400EB3F1F /* AVFoundation.framework in Frameworks */,
 				3310D981C488E177406A5935 /* libPods-StandardCyborgFusion.a in Frameworks */,
+				F31C4F932A7B9F8C00EB3F1F /* CoreServices.framework in Frameworks */,
+				F31C4F962A7B9F8C00EB3F1F /* CoreGraphics.framework in Frameworks */,
+				F31C4FA42A7B9FD700EB3F1F /* QuartzCore.framework in Frameworks */,
+				F31C4F982A7B9F8D00EB3F1F /* CoreML.framework in Frameworks */,
+				F31C4F9F2A7B9FC700EB3F1F /* Metal.framework in Frameworks */,
+				F31C4F952A7B9F8C00EB3F1F /* CoreVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,6 +421,22 @@
 		7E954CECBC34E7DBAAA3B9F1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F31C4FA72A7B9FE500EB3F1F /* SceneKit.framework */,
+				F31C4FA52A7B9FDD00EB3F1F /* Vision.framework */,
+				F31C4FA32A7B9FD700EB3F1F /* QuartzCore.framework */,
+				F31C4FA12A7B9FD000EB3F1F /* ModelIO.framework */,
+				F31C4F9D2A7B9FC700EB3F1F /* Metal.framework */,
+				F31C4F9E2A7B9FC700EB3F1F /* MetalPerformanceShaders.framework */,
+				F31C4F9B2A7B9FBC00EB3F1F /* IOSurface.framework */,
+				F31C4F992A7B9FB500EB3F1F /* ImageIO.framework */,
+				F31C4F902A7B9F8B00EB3F1F /* CoreGraphics.framework */,
+				F31C4F8E2A7B9F8B00EB3F1F /* CoreImage.framework */,
+				F31C4F912A7B9F8B00EB3F1F /* CoreMedia.framework */,
+				F31C4F922A7B9F8C00EB3F1F /* CoreML.framework */,
+				F31C4F8D2A7B9F8B00EB3F1F /* CoreServices.framework */,
+				F31C4F8F2A7B9F8B00EB3F1F /* CoreVideo.framework */,
+				F31C4F8B2A7B9F5400EB3F1F /* AVFoundation.framework */,
+				F31C4F892A7B9F4400EB3F1F /* Accelerate.framework */,
 				F31C4F0A2A7B392400EB3F1F /* libPods-StandardCyborgFusion.a */,
 				F31C4F0B2A7B392400EB3F1F /* libPoissonRecon.a */,
 				F31C4F0C2A7B392400EB3F1F /* libscsdk.a */,
@@ -1045,6 +1109,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CA9184D2B7F01A4769B924E0 /* Pods-StandardCyborgFusion.debug.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -1105,6 +1171,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2E6C9C7A099C3E8A8AD9730A /* Pods-StandardCyborgFusion.release.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
